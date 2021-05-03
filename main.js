@@ -74,4 +74,21 @@ function getTotal(){
      tr+="<tr style='font-weight:bold';><td> Total</td><td> KSh "+sum*365+" </td><td></td></tr>";
      table.innerHTML+=tr;
  }
+ function getSummary(){
+    document.getElementById("price").style.display="block";
+    document.getElementById("addform").style.display="none";
+    document.getElementById("summaryholder").style.display="none";
+    
+}
+function incomeOvertime() {
+    let b=document.getElementById("cprice").value;
+    let diff=b-price;
+    var table = document.getElementById("tdata");
+    table.innerHTML="";
+    var n="";
+    yearProduction.forEach(x=>{
+       n+='<tr>';
+       n+='<td>'+'Your income for '+x.period +'</td><td>'+x.production*x.days*price+'</td><td>'+
+       x.production*x.days*b+'</td><td>'+x.days*x.production*diff+"</td>";
+  
     
