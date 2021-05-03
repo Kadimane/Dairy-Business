@@ -3,3 +3,9 @@ body{height:98%;}
 
 @media screen and (min-height:500px){
     .main{
+        width:94%;
+        display:flex;overflow: auto;
+        background: #a5a4a4;
+        height: 100%;flex-direction: row;
+        justify-content: space-around;
+    }
