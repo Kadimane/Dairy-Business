@@ -1,0 +1,5 @@
+html{height:100%;}
+body{height:98%;}
+
+@media screen and (min-height:500px){
+    .main{
