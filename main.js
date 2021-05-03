@@ -51,4 +51,15 @@ function addData(){
     document.getElementById("summaryholder").style.display="none";
     
 }
+function getOut() {
+    window.location.replace("index.html");
+}
+function getTotal(){
+    document.getElementById("headholder").innerHTML="Production per Year";
+    document.getElementById("addform").style.display="none";
+    document.getElementById("price").style.display="none"
+    document.getElementById("summaryholder").style.display="none";
+    var table = document.getElementById("data");
+    table.innerHTML="";
+    var tr="";
     
