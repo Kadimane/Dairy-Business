@@ -49,3 +49,12 @@ body{height:98%;}
     .priceset{height:700px;width:900px;background: grey;border:1px solid purple;e;z-index: 9;
         margin:0 auto;display: none;top: 20%;box-shadow:4px 9px #a5a4a4;
         position: absolute;left:30%;}
+        .priceset input[type="text"]{margin-left:10px;font-weight: bold;width:70%;height:30px;font-size: 24px;}
+.calcset{height:50px;width: 100%;display: flex;flex-direction: row;justify-content: space-between;}
+.calcholder{
+    width:100%;height:590px;background:burlywood;
+}
+.summaryholder{
+        width:30%;height:400px;background:grey;border: 1px solid black;position: absolute;
+        display:none;top:10%;left:30%;z-index: 9; 
+}
