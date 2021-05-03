@@ -62,4 +62,16 @@ function getTotal(){
     var table = document.getElementById("data");
     table.innerHTML="";
     var tr="";
+    yearProduction.forEach(x=>{
+        tr+='<tr>';
+        tr+='<td>'+'Your production from '+x.period+'</td>'+'<td>'+'Ksh '+x.production*x.days+' '+'</td>';
+        tr+='</tr>'
+   
+     })
+     var sum = yearProduction.reduce(function (total, currentValue) {
+         return total + currentValue.production;
+     }, 0);
+     tr+="<tr style='font-weight:bold';><td> Total</td><td> KSh "+sum*365+" </td><td></td></tr>";
+     table.innerHTML+=tr;
+ }
     
