@@ -16,3 +16,15 @@ body{height:98%;}
         height:30px;width:30px;background: grey;cursor:pointer;margin-top: 5px;display: flex;
         flex-direction: column;padding:2px;
     }
+    .sidenav{
+        height:98%;width:20%;background: rgb(240, 243, 245);display:block;padding:10px 0 0 20px;
+        overflow: auto;z-index: 4;float: left;
+    }
+    .leftholdertop{height:47%;width:99%;background:grey;overflow:auto;}
+    .rightholdertop{height:47%;width:99%;background:grey;overflow:auto;}
+    .holder{height:30px;min-width: 100px;cursor: pointer;margin-bottom: 10px;font-weight: bold;
+        font-family: Cambria;}
+    .contholder{
+        width:95%;height:100%;background: #b6b2b2;border: 1px solid black;align-items: flex-start;
+        font-size: 20px;
+    }
