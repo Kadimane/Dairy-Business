@@ -53,4 +53,13 @@
                         <div><button class="btn1"style="float:right;" onclick="incomeOvertime()">SET</button></div></div>
                         <div class="calcholder" id="calcholder">
                             <table style="width: 100%;text-align: left;">
-                                <thead>
+                                <thead>  <th>Month</th><th>Earnings</th><th>Expected</th><th>Difference</th>
+                                </thead>
+                                <tbody id="tdata"></tbody>
+                            </table>
+                        </div>
+                    </div>
+           <div class="summaryholder" id="summaryholder">
+               <div class="headholder" id="headholder"></div>
+               <div class="calcset"><div><form>Price(Ksh.)<input type="text" id="saleprice"></form></div>
+               <div><button class="btn1"style="float:right;" onclick="getAll()">Find</button></div></div>
