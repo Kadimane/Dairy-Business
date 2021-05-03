@@ -91,4 +91,16 @@ function incomeOvertime() {
        n+='<td>'+'Your income for '+x.period +'</td><td>'+x.production*x.days*price+'</td><td>'+
        x.production*x.days*b+'</td><td>'+x.days*x.production*diff+"</td>";
   
-    
+       function getSummary(){
+        document.getElementById("price").style.display="block";
+        document.getElementById("addform").style.display="none";
+        document.getElementById("summaryholder").style.display="none";
+        
+    }
+    function incomeOvertime() {
+        let b=document.getElementById("cprice").value;
+        let diff=b-price;
+        var table = document.getElementById("tdata");
+        table.innerHTML="";
+        var n="";
+        yearProduction.forEach(x=>{
