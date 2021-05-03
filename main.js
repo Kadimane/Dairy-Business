@@ -26,4 +26,29 @@ function getPrice(){
     document.getElementById('addform').style.display='none';
     document.getElementById("summaryholder").style.display="none";
 }
+function getShed(){
+    document.getElementById("headholder").innerHTML="Production per shed";
+    document.getElementById("addform").style.display="none";
+    document.getElementById("price").style.display="none"
+    document.getElementById("summaryholder").style.display="none";
+    var table = document.getElementById("data");
+    table.innerHTML="";
+    var tr="";
+    dailyProduction.forEach(x=>{
+       tr+='<tr>';
+       tr+='<td>'+'Your production from '+x.name+'</td>'+'<td>'+x.amount+' liters per day'+'</td>';
+       tr+='</tr>'
+    })
+    var sum = dailyProduction.reduce(function (total, currentValue) {
+        return total + currentValue.amount;
+    }, 0);
+    tr+="<tr style='font-weight:bold';><td> Total</td><td>"+sum +" litres per day</td><td></td></tr>";
+    table.innerHTML+=tr;
+}
+function addData(){
+    document.getElementById('addform').style.display='block';
+    document.getElementById('price').style.display="none";
+    document.getElementById("summaryholder").style.display="none";
+    
+}
     
