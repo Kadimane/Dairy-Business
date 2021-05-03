@@ -9,3 +9,10 @@ body{height:98%;}
         height: 100%;flex-direction: row;
         justify-content: space-around;
     }
+    .nav{height:10%;background:grey;font-family: verdana;width: 100%;   
+    }
+    .body{height:89%;width:100%;background: #a5a4a4;}
+    .menu{
+        height:30px;width:30px;background: grey;cursor:pointer;margin-top: 5px;display: flex;
+        flex-direction: column;padding:2px;
+    }
