@@ -36,3 +36,16 @@ body{height:98%;}
         min-height: 300px;width:500px;background: #ffffff;z-index:9;display: none;margin:  0 auto;
         font-weight: bold;margin-top: 5%;position: absolute;top: 20%;left:30%;
     }
+    input[type='text'],[type='text'],[type='text']{width: 80%;height:30px;color: black;
+        font-family: Tahoma;margin-top: 5px;margin-top: 10px;font-weight: bold;}
+        .btn{
+            height:40px;width:80px;text-align: center;cursor: pointer;background: midnightblue;color: white;
+            font-weight: bold;margin-top: 20px;float:right;margin-right: 10px;font-size: 24px;
+        }
+        .btn1{
+            height:40px;width:80px;text-align: center;cursor: pointer;background: blue;color: white;
+            font-weight: bold;margin-top: 0px;float:right;margin-right: 10px;font-size: 24px;
+        }
+    .priceset{height:700px;width:900px;background: grey;border:1px solid purple;e;z-index: 9;
+        margin:0 auto;display: none;top: 20%;box-shadow:4px 9px #a5a4a4;
+        position: absolute;left:30%;}
