@@ -104,3 +104,18 @@ function incomeOvertime() {
         table.innerHTML="";
         var n="";
         yearProduction.forEach(x=>{
+            n+='<tr>';
+            n+='<td>'+'Your income for '+x.period +'</td><td>'+x.production*x.days*price+'</td><td>'+
+            x.production*x.days*b+'</td><td>'+x.days*x.production*diff+"</td>";
+       
+         document.getElementById("weekpro").innerHTML=sum*7*price;
+         document.getElementById("yearpro").innerHTML=sum*365*price;
+     
+     }
+     function addSale(){
+         let shedName=document.getElementById("shed").value;
+         let amountCap=document.getElementById("collectionAmount").value;
+         let addNew={"name":shedName,"amount":amountCap}
+         dailyProduction.push(addNew);
+         document.getElementById("addContent").reset();
+     }
