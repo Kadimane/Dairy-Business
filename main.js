@@ -21,4 +21,9 @@ var yearProduction=[
 {"period":"December","production":1876,"days":31},
     
 ];
-let dailyProduction=[
+function getPrice(){
+    document.getElementById("price").style.display="block";
+    document.getElementById('addform').style.display='none';
+    document.getElementById("summaryholder").style.display="none";
+}
+    
