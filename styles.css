@@ -28,3 +28,11 @@ body{height:98%;}
         width:95%;height:100%;background: #b6b2b2;border: 1px solid black;align-items: flex-start;
         font-size: 20px;
     }
+    .headholder{height:60px;width:100%;
+        background: violet;
+        font-weight: bold;font-family: 'Times';
+    text-align: center;font-size: 20px;line-height: 60px;}
+    .addform{
+        min-height: 300px;width:500px;background: #ffffff;z-index:9;display: none;margin:  0 auto;
+        font-weight: bold;margin-top: 5%;position: absolute;top: 20%;left:30%;
+    }
