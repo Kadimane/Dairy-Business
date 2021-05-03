@@ -13,4 +13,12 @@ var yearProduction=[
 {"period":"November","production":1876,"days":30},
 {"period":"December","production":1876,"days":31},
     
+];{"period":"July","production":1876,"days":31},
+{"period":"August","production":1876,"days":31},
+{"period":"September","production":1876,"days":30},
+{"period":"October","production":1876,"days":31},
+{"period":"November","production":1876,"days":30},
+{"period":"December","production":1876,"days":31},
+    
 ];
+let dailyProduction=[
