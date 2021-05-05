@@ -58,3 +58,21 @@ body{height:98%;}
         width:30%;height:400px;background:grey;border: 1px solid black;position: absolute;
         display:none;top:10%;left:30%;z-index: 9; 
 }
+.summaryholder input[type="text"]{margin-left:10px;font-weight: bold;width:70%;height:30px;font-size: 24px;}
+}
+.bodyholder{
+    height:98%;width:80%;flex-direction: row;justify-content: space-between;margin-left:2%;
+    margin-top: 10px;
+}
+.snavhead{display: flex;justify-content: space-between;margin-bottom:10px;height:30px;
+    font-weight: bold;font-size: 28px;
+}
+.summaryholder input[type="text"]{margin-left:10px;font-weight: bold;width:70%;height:30px;font-size: 24px;}
+}
+.bodyholder{
+    height:98%;width:80%;flex-direction: row;justify-content: space-between;margin-left:2%;
+    margin-top: 10px;
+}
+.snavhead{display: flex;justify-content: space-between;margin-bottom:10px;height:30px;
+    font-weight: bold;font-size: 28px;
+}
